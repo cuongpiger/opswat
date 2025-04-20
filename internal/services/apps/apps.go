@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/neepooha/sso/internal/domain/models"
-	"github.com/neepooha/sso/internal/lib/logger/sl"
-	"github.com/neepooha/sso/internal/lib/logging"
-	"github.com/neepooha/sso/internal/storage"
+	"github.com/cuongpiger/sso/internal/domain/models"
+	"github.com/cuongpiger/sso/internal/lib/logger/sl"
+	"github.com/cuongpiger/sso/internal/lib/logging"
+	"github.com/cuongpiger/sso/internal/storage"
 	"log/slog"
 )
 

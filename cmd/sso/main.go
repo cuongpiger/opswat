@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/neepooha/sso/internal/app"
-	"github.com/neepooha/sso/internal/config"
-	"github.com/neepooha/sso/internal/lib/logger/handlers/slogpretty"
+	"github.com/cuongpiger/sso/internal/app"
+	"github.com/cuongpiger/sso/internal/config"
+	"github.com/cuongpiger/sso/internal/lib/logger/handlers/slogpretty"
 	"log/slog"
 	"os"
 	"os/signal"

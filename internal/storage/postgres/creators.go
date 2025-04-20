@@ -3,7 +3,7 @@ package postgres
 import (
 	"context"
 	"fmt"
-	"github.com/neepooha/sso/internal/storage"
+	"github.com/cuongpiger/sso/internal/storage"
 )
 
 func (s *Storage) IsCreator(ctx context.Context, userID uint64, appName string) error {

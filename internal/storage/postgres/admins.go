@@ -3,7 +3,7 @@ package postgres
 import (
 	"context"
 	"fmt"
-	"github.com/neepooha/sso/internal/storage"
+	"github.com/cuongpiger/sso/internal/storage"
 )
 
 func (s *Storage) SetAdmin(ctx context.Context, email string, appName string) error {

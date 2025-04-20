@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/neepooha/sso/internal/domain/models"
-	"github.com/neepooha/sso/internal/storage"
+	"github.com/cuongpiger/sso/internal/domain/models"
+	"github.com/cuongpiger/sso/internal/storage"
 	"strings"
 
 	"github.com/golang-jwt/jwt"

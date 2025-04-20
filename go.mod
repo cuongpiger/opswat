@@ -1,4 +1,4 @@
-module github.com/neepooha/sso
+module github.com/cuongpiger/sso
 
 go 1.22.1
 

@@ -2,7 +2,7 @@ package migrator
 
 import (
 	"fmt"
-	"github.com/neepooha/sso/internal/config"
+	"github.com/cuongpiger/sso/internal/config"
 
 	"github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"

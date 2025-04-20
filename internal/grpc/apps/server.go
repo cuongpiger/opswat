@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/neepooha/sso/internal/services/apps"
+	"github.com/cuongpiger/sso/internal/services/apps"
 	"strings"
 
 	"github.com/go-playground/validator/v10"

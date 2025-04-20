@@ -2,9 +2,9 @@ package grpcapp
 
 import (
 	"fmt"
-	appsgrpc "github.com/neepooha/sso/internal/grpc/apps"
-	authgrpc "github.com/neepooha/sso/internal/grpc/auth"
-	permgrpc "github.com/neepooha/sso/internal/grpc/permissions"
+	appsgrpc "github.com/cuongpiger/sso/internal/grpc/apps"
+	authgrpc "github.com/cuongpiger/sso/internal/grpc/auth"
+	permgrpc "github.com/cuongpiger/sso/internal/grpc/permissions"
 	"log/slog"
 	"net"
 
