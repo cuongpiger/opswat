@@ -1,0 +1,13 @@
+env: "local"
+storage:
+  host: "localhost"
+  port: 5432
+  dbname: "auth"
+  user: "myuser"
+  password: "mypass"
+  migrations_path: "./migrations"
+token_ttl: 1h
+grpc:
+  host: "localhost"
+  port: 44044
+  timeout: 10s

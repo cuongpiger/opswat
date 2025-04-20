@@ -1,0 +1,31 @@
+# See: https://taskfile.dev/api/
+
+version: "3"
+
+tasks:
+  up:
+    aliases:
+      - up
+    desc: "up migrations"
+    cmds: 
+      - migrate -source file://./migrations/ -database postgres://myuser:mypass@localhost:5432/auth?sslmode=disable up
+  rollback:
+    aliases:
+      - down
+    desc: "down migrations"
+    cmds: 
+      - migrate -source file://./migrations/ -database postgres://myuser:mypass@localhost:5432/auth?sslmode=disable down
+  drop:
+    aliases:
+      - migrations_test
+    desc: "run test migrations"
+    cmds: 
+     - migrate -source file://./migrations/ -database postgres://myuser:mypass@localhost:5432/auth?sslmode=disable drop
+  db-start:
+    aliases:
+      - postgres
+    desc: "run docker postgres"
+    cmds:
+      - docker run --name sso-pos -e POSTGRES_DB=auth -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypass -p 5432:5432 -d postgres
+
+      # See: https://taskfile.dev/api/

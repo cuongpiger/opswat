@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  ssodb:
+    image: postgres:latest
+    container_name: ssoDB
+    env_file:
+      - ./config.env
+    volumes:
+      - postgresql_ssodb:/var/lib/postgresql/ssodb
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}'" ]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  postgresql_ssodb:

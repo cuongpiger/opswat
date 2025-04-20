@@ -1,0 +1,10 @@
+env: "prod"
+storage:
+  host: "ssodb"
+  port: 5432
+  migrations_path: "./migrations"
+token_ttl: 72h
+grpc:
+  host: "sso"
+  port: 44044
+  timeout: 10s  
