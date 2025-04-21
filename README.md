@@ -27,7 +27,7 @@ After installing Go, Docker and TaskFile, run the following commands to start ex
 ```shell
 ## RUN SSO
 # download the project
-git clone [https://github.com/cuongpiger/sso.git](https://github.com/cuongpiger/sso)
+git clone https://github.com/cuongpiger/opswat.git
 cd sso
 
 # create config.env with that text:
