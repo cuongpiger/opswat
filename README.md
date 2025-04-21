@@ -51,7 +51,7 @@ and run following commads:
 
 ```shell
 # run the SSO server
-cd sso/
+cd opswat/
 docker compose up --build
 ```
 
