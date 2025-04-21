@@ -82,7 +82,7 @@ SSO-grpc Server running at http://localhost:44044. The server provides the follo
 Project has the following project layout:
 
 ```
-sso/
+opswat/
 ├── cmd/                       start of applications of the project
 ├── config/                    configuration files for different environments
 ├── deployment/                configuration for create daemon in linux
