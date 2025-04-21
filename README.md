@@ -28,7 +28,7 @@ After installing Go, Docker and TaskFile, run the following commands to start ex
 ## RUN SSO
 # download the project
 git clone https://github.com/cuongpiger/opswat.git
-cd sso
+cd opswat/
 
 # create config.env with that text:
 $ nano config.env {
